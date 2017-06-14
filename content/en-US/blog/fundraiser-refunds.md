@@ -8,14 +8,14 @@ excerpt: An update on fundraiser refunds
 
 Dearest Cosmonauts,
 
-This a quick overdue update on some loose ends from the fundraiser, 
-namely what to do about the Cosmic Whale that contributed 40k ether, 
+This a long overdue update on some loose ends from the fundraiser, 
+namely what to do about the Cosmic Whale who contributed 40k ether, 
 what to do about late Bitcoin transactions,
-and what we're doing about hedging our position.
+and how we are hedging our position.
 
 We'll also remind you that you can check your suggested Atom allocation at https://fundraiser.cosmos.network/.
-To get your Cosmos Address, download the command line tool from: https://github.com/cosmos/fundraiser-cli/releases/tag/2.11.3.
-On an offline computer, enter your twelve word mnemonic.
+If you don't remember your Cosmos Address, download the command line tool from: https://github.com/cosmos/fundraiser-cli/releases/tag/2.11.3.
+Then, on an offline computer, enter your twelve word mnemonic to generate the Cosmos Address.
 
 # The Whale
 
@@ -25,7 +25,7 @@ Thus, the maximum acceptable contribution was 22109.21954455008 ETH.
 An excited member of the community disregarded this limit and contributed 40k ETH.
 So 17890 ETH were returned, and the difference (0.78045544992 ETH) was kept as an administration fee.
 
-Rest assured, a signed statement was secured from the Cosmic Whale 
+A signed statement was secured from the Cosmic Whale 
 requesting the funds be sent back to the sending address.
 The text of that statement is as follows:
 
@@ -62,11 +62,9 @@ That said, due to issues with delayed transactions and ambiguity, donations with
 All funds received after block 460661 have been refunded to their respective intermediate address.
 
 If your donation transaction was committed in a block after 460661, you should reclaim the bitcoins 
-sent back to your intermediate address. To do so, download the command line tool from: https://github.com/cosmos/fundraiser-cli/releases/tag/2.11.3
+sent back to your intermediate address. To do so, download the command line tool from: https://github.com/cosmos/fundraiser-cli/releases/tag/2.11.3. Then, on an offline machine, run the program and enter your twelve word mnemonic. It will output your Cosmos Address, as well as your intermediate Bitcoin address and private key. 
 
-On an offline machine, run the program and enter your twelve word mnemonic. It will output your Cosmos Address,
-as well as your intermediate Bitcoin address and private key. Import the private key into a Bitcoin wallet
-of your choice and send the Bitcoin to wherever you like.
+Import the private key into a Bitcoin wallet of your choice and send the Bitcoin to wherever you like.
 
 The refunds occured over two transactions:
 https://blockchain.info/tx/395bfd3c076ccc96796c951442c0c9fb4bc8c213c4afff5342629b3486a5dc37
